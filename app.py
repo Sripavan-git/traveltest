@@ -9,6 +9,12 @@ app.register_blueprint(sec, url_prefix="/")
 app.debug = True
 
 
+
+
+
+
+
+
 @app.route("/login", methods=["GET", "POST"])
 def log():
     try:
