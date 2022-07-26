@@ -1,0 +1,162 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	list-style: none;
+	font-family: 'Poppins',sans-serif;
+}
+
+body{
+	font-size: 100%;
+}
+
+.navbar{
+	width: 100%;
+	height: 80px;
+	background-color: #fee;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color: #D4E6F1;
+}
+.navbar .logo h1:hover{
+	background-color: #D4E6F1;
+	border-radius: 3px;
+
+}
+.menu ul{
+	display: flex;
+	align-items: center;
+} 
+.menu ul li a{
+	text-decoration: none;
+	color: #000;
+	padding: 5px 12px;
+	letter-spacing: 2px;
+	font-size: 18px;
+
+}
+
+.menu ul li a:hover{
+	border-bottom: 4px solid #000;
+
+}
+
+.signup a{
+	text-decoration: none;
+	color: #000;
+	font-size: 18px;
+	font-weight: bold;
+	border-radius: 12px;
+	padding: 12px 30px;
+	border: 2px solid #34495E;
+}
+
+.signup a:hover{
+	background-color: #34495E ;
+	transition: 0.6s;
+}
+
+.login a{
+	text-decoration: none;
+	color: #000;
+	font-size: 18px;
+	font-weight: bold;
+	border-radius: 12px;
+	padding: 12px 30px;
+	border: 2px solid #34495E;
+}
+
+.login a:hover{
+	background-color: #34495E ;
+	transition: 0.6s;
+}
+
+
+.body{
+	width: 100%;
+	height: 90vh;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)),url(static/images/img1.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+.heading{
+	width: 30%;
+	text-align: center;
+	color: #fff;
+}
+
+.heading a{
+	text-decoration: none;
+	color: #000;
+	font-size: 25px;
+	font-weight: bold;
+	border-radius: 45px;
+	padding: 14px 50px;
+	background-color: #fff;
+
+}
+
+.heading a:hover{
+	letter-spacing: 3px;
+	background-color: #95A5A6 ;
+	transition: 0.6s;
+}
+.tours{
+	width: 70%;
+	display: flex;
+	justify-content: space-around;
+}
+.places{
+	display: inline;
+	text-align: center;
+	border-radius: 12px;
+}
+
+.places h2{
+	color: #273746;
+	font-size: 35px;
+	letter-spacing: 3px;
+	border-radius: 1px;
+	padding: 20px 30px;
+	background-color: #000;
+}
+.places a{
+	text-decoration: none;
+	color: #7B7D7D;
+	font-weight: bold;
+	font-size: 18px;
+	border-radius: 20px;
+	padding: 12px 30px;
+	background-color: #E5E7E9;
+}
+.places a:hover{
+	background-color: #000;
+	letter-spacing: 3px;
+	transition: 0.6s;
+}
+
+.footer{
+	width: 100%;
+	height: 50px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color: #EBEDEF;
+}
+.footer a{
+	text-decoration: none;
+	color: black;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.footer a:hover{
+	text-decoration: underline;
+	transition: 0.5s;
+}
+

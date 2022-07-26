@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Mohave:ital,wght@1,300&family=Poppins:ital,wght@1,100&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+	/*box-sizing: border-box;*/
+	font-family: 'Mohave',sans-serif;
+	font-weight: bold;
+
+}
+body{
+	background-color: transparent;
+	padding: 50px;
+	/* width: 900px; */
+	/* margin-left: auto; */
+	/* margin-right: auto; */
+	font-size: 100%;
+}
+.container{
+
+	background-color: transparent;
+	width: calc(100% - 50px);
+	height: 100vh;
+}
+.card{
+	position: relative;
+	width: 100%;
+	min-height: 400px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	background-color: transparent;
+	padding: 30px;
+}
+.imagebox{
+	min-width: 50%;
+	/*background-color: yellow;*/
+	border-radius: 30px;
+	transition: 0.5s;
+	transform: scale(0.8);
+}
+.imagebox:hover{
+	transform: scale(1);
+}
+.imagebox>img{
+	width: 100%;
+	border-radius: 30px;
+}
+.content{
+	padding: 1%;
+	display: flex;
+	/* justify-content: center; */
+	/* align-items: center; */
+	text-align: justify;
+	flex-direction: column;
+	background-color: tranparent;
+	cursor: pointer;
+
+	min-width: 50%;
+}
+p{
+	/*font-size: 20px;*/
+}
+h1{
+	text-align: justify;
+	/*font-size: 9em;*/
+	justify-content: left;
+	text-transform: uppercase;
+	font-weight: bolder;
+	
+	/* font-size: 100%; */
+	/* align-items: flex-start; */
+}
+a{
+	/*font-size: 7em;*/
+	color: #7B7D7D;
+	font-weight: bold;
+	border-radius: 20px;
+	text-align: center;
+	padding: 12px 20px;
+	background-color: #E5EDEF;
+}
+a:hover{
+	background-color: #000;
+	cursor: pointer;
+	letter-spacing: 2.5px;
+	transition: 0.7s;
+}
+
